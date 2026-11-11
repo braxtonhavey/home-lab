@@ -1,0 +1,10 @@
+# Never commit secrets or app data
+.env
+*.env
+!.env.example
+pihole/
+jellyfin/
+uptime-kuma/
+homepage/
+minecraft/
+.obsidian/workspace*.json
